@@ -24,7 +24,7 @@ export default function Contact() {
 
     axios({
       method: "POST",
-      url: BACKEND_URL + "/api/email/send",
+      url: BACKEND_URL + "email/send",
       data:  {
         name: name,
         email: email,

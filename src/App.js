@@ -7,7 +7,7 @@ import Experience from './pages/Experience';
 import Contact from './components/Contact';
 import React from 'react';
 
-export const BACKEND_URL = 'http://127.0.0.1:8000'
+export const BACKEND_URL = 'https://www.nathanfletcher.dev/api/'
 
 function App() {
   return (
