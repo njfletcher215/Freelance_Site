@@ -56,8 +56,8 @@ export default function Contact() {
             <a className='contact-link styled-button' href='tel:+4022168557'>402-216-8557</a>
             <a className='contact-link styled-button' href='mailto:nathanfletcher@nathanfletcher.dev'>nathanfletcher@nathanfletcher.dev</a>
             <a className='contact-link styled-button' href='mailto:njfletcher215@gmail.com'>njfletcher215@gmail.com</a>
-            <a className='contact-link styled-button' href='https://www.linkedin.com/nathanjfletcher'>Linkedin</a>
-            <a className='contact-link styled-button' href='https://www.github.com/njfletcher215'>GitHub</a>
+            <a className='contact-link styled-button' href='https://www.linkedin.com/in/nathanjfletcher' target='_blank'>Linkedin</a>
+            <a className='contact-link styled-button' href='https://www.github.com/njfletcher215' target='_blank'>GitHub</a>
           </div>
         </div>
         <div className='contact-wrapper'>
