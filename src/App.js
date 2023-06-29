@@ -2,13 +2,12 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Projects from './pages/Projects';
-import Process from './pages/Process';
-import Resources from './pages/Resources';
 import About from './pages/About';
 import Experience from './pages/Experience';
 import Contact from './components/Contact';
-import Home from './pages/Home';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+
+export const BACKEND_URL = 'http://127.0.0.1:8000'
 
 function App() {
   return (

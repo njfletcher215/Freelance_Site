@@ -55,6 +55,14 @@ form {
     border: 1px solid steelblue;
 }
 
+.contact-link {
+    margin-top: 10px;
+}
+
+.contact-link:first-child {
+    margin-top: 0px;
+}
+
 .styled-button {
     width: 100%;
     padding-top: 10px;
@@ -102,6 +110,11 @@ form {
     min-height: 40px;
     max-height: 200px;
     align-items: center;
+    padding: 10px;
+}
+
+.navbar:hover {
+    cursor: url("http://localhost:3000/black-dot.svg") 5 5, auto;
 }
 
 .menu-option {
@@ -110,18 +123,21 @@ form {
     list-style-type: none;
 }
 
-.menu-option.active {
-    background-color: steelblue;
+.menu-option-link:hover {
+    cursor: url("http://localhost:3000/black-dot-highlight.svg") 5 5, auto;
 }
 
 .menu-option-link {
     text-decoration: none;
     color: steelblue;
     font-size: large;
-    margin: 15px;
+    padding: 15px;
 }
+
 .menu-option-link.active {
     color: white;
+    background-color: steelblue;
+    border-radius: 25% / 50%;
 }
 
 .projects {
@@ -165,6 +181,7 @@ form {
 
 .page-content {
     flex-grow: 1;
+    background-color: white;
 }
 
 .about {
@@ -290,4 +307,16 @@ form {
 
 .references {
     margin-top: 20px;
+}
+
+#cursor {
+    background-color: steelblue;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
 }
